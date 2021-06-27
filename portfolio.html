@@ -11,38 +11,39 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a class="logo" href=""><span class="slogan">Web</span><span class="slogan-studio">Studio</span> </a>
-                <ul class="list">
-                    <li class="list-item">
-                        <a class="item-img" href  ="./index.html">Студия</a>
+                <a class="nav__logo" href=""><span class="nav__slogan">Web</span><span
+                        class="nav__slogan--black">Studio</span> </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__img " href="./index.html">Студия</a>
                     </li>
-                    <li class="list-item">
-                        <a class="item-img current" href  ="">Портфолио</a>
+                    <li class="nav__item">
+                        <a class="nav__img current" href="">Портфолио</a>
                     </li>
-                    <li class="list-item">
-                        <a class="item-img" href  ="">Контакты</a>
+                    <li class="nav__item">
+                        <a class="nav__img" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="list">
-                <li class="list-auth">
-                    <a class="list-mail"  href="mailto:info@devstudio.com">
-                        <svg class="icon" width="16" height="12">
+            <ul class="contacts">
+                <li class="contacts__item">
+                    <a class="contacts__mail" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16" height="12">
                             <use xlink:href="./images/icons/sprite.svg#icon-mail">
                             </use>
                         </svg>
-                        info@devstudio.com  
+                        info@devstudio.com
                     </a>
                 </li>
-                <li class="list-auth">
-                    <a class="list-tel" href="tel:+380961111111">
-                        <svg class="icon" width="10" height="16">
+                <li class="contacts__item">
+                    <a class="contacts__tel" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="10" height="16">
                             <use xlink:href="./images/icons/sprite.svg#icon-phone">
                             </use>
                         </svg>
@@ -55,139 +56,139 @@
     <section class="section">
         <div class="container">
             <!-- <h1>portfolio</h1> -->
-            <ul class="row">
-                <li class="filter-list"><button class="filter-button" type="button">Все</button></li>
-                <li class="filter-list"><button class="filter-button" type="button">Веб-сайты</button></li>
-                <li class="filter-list"><button class="filter-button" type="button">Приложения</button></li>
-                <li class="filter-list"><button class="filter-button" type="button">Дизайн</button></li>
-                <li class="filter-list"><button class="filter-button" type="button">Маркетинг</button></li>
+            <ul class="buttonslist">
+                <li class="buttonslist__item"><button class="buttons__portfolio" type="button">Все</button></li>
+                <li class="buttonslist__item"><button class="buttons__portfolio" type="button">Веб-сайты</button></li>
+                <li class="buttonslist__item"><button class="buttons__portfolio" type="button">Приложения</button></li>
+                <li class="buttonslist__item"><button class="buttons__portfolio" type="button">Дизайн</button></li>
+                <li class="buttonslist__item"><button class="buttons__portfolio" type="button">Маркетинг</button></li>
             </ul>
             <!-- <h2>project</h2> -->
             <ul class="project">
-                <li class="grid">
-                        <a href="" class="grid-link">
+                <li  class="grid">
+                        <a href="" class="grid__link">
                             <div class="overlay">
                                  <img src="./images/leptop.jpg" alt="leptop" width="370">
-                                 <div class="overlay-text">
-                                    <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                 <div class="apposition">
+                                    <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                                  </div>
                             </div>
                     
                         <div class="desc">
-                            <h3 class="title">Технокряк</h3>
-                        <p class="task">Веб-сайт</p>
+                            <h3 class="desc__title">Технокряк</h3>
+                        <p clasdesc__text">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                             <img src="./images/basketball.jpg" alt="basketball" width="370">
-                            <div class="overlay-text">
-                                <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                            <div class="apposition">
+                                <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                      </div>
                         <div class="desc">
-                            <h3 class="title">Постер New Orlean vs Golden Star</h3>
-                        <p class="task">Дизайн</p>
+                            <h3 class="desc__title">Постер New Orlean vs Golden Star</h3>
+                        <p class="desc__text">Дизайн</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/restourant.jpg" alt="restourant" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Ресторан Seafood</h3>
-                        <p class="task">Приложение</p>
+                            <h3 class="desc__title">Ресторан Seafood</h3>
+                        <p class="desc__text">Приложение</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/headphones.jpg" alt="headphones" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Проект Prime</h3>
-                        <p class="task">Маркетинг</p>
+                            <h3 class="desc__title">Проект Prime</h3>
+                        <p class="desc__text">Маркетинг</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/box.jpg" alt="box" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Проект Boxes</h3>
-                        <p class="task">Приложение</p>
+                            <h3 class="desc__title">Проект Boxes</h3>
+                        <p class="desc__text">Приложение</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/monitor.jpg" alt="monitor" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Inspiration has no Borders</h3>
-                        <p class="task">Веб-сайт</p>
+                            <h3 class="desc__title">Inspiration has no Borders</h3>
+                        <p class="desc__text">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/book.jpg" alt="book" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Издание Limited Edition</h3>
-                        <p class="task">Дизайн</p>
+                            <h3 class="desc__title">Издание Limited Edition</h3>
+                        <p class="desc__text">Дизайн</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/tag.jpg" alt="tag" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Проект LAB</h3>
-                        <p class="task">Проект LAB</p>
+                            <h3 class="desc__title">Проект LAB</h3>
+                        <p class="desc__text">Проект LAB</p>
                         </div>
                     </a>
                 </li>
                 <li class="grid">
-                    <a href="" class="grid-link">
+                    <a href="" class="grid__link">
                         <div class="overlay">
                         <img src="./images/handonleptop.jpg" alt="handonleptop" width="370">
-                        <div class="overlay-text">
-                            <p class="grid-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        <div class="apposition">
+                            <p class="apposition__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div>
                     </div>
                         <div class="desc">
-                            <h3 class="title">Growing Business</h3>
-                        <p class="task">Приложение</p>
+                            <h3 class="desc__title">Growing Business</h3>
+                        <p class="desc__text">Приложение</p>
                         </div>
                     </a>
                 </li>
@@ -197,63 +198,64 @@
 </main>
     <footer class="footer">
         <div class="container adress">
-            <div class="footer-adress">
-                <a class="footer-web" href=""> <span class="slogan">Web</span><span class="footer-slogan">Studio</span> </a>
-                <address class="adress-logo">
-                    <ul class="adress-logo">
-                        <li class="footer-list">
-                            <a class="adress-list" href="">г. Киев, пр-т Леси Украинки, 26</a>
+            <div class="footer__box">
+                <a class="" href=""> <span class="footer__slogan">Web</span><span
+                        class="footer__slogan--white">Studio</span> </a>
+                <address class="footer__adress">
+                    <ul class="adress__list">
+                        <li class="adress__item">
+                            <a class="adress__office" href="">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
-                        <li class="footer-list">
-                            <a class="adress-link" href="mailto:info@example.com">info@example.com</a>
+                        <li class="adress__item">
+                            <a class="adress__link" href="mailto:info@example.com">info@example.com</a>
                         </li>
-                        <li class="footer-list">
-                            <a class="adress-link tel" href="tel:+380961111111">+38 099 111 11 11</a>
+                        <li class="adress__item">
+                            <a class="adress__link" href="tel:+380961111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
-            <div class="footer-list-icons">
-                <p class="footer-text">
+            <div class="messengers">
+                <p class="messengers__title">
                     присоединяйтесь
                 </p>
-                <ul class="footer-icons">
-                    <li class="footer-icon-list">
-                        <a href="#" class="icon-link">
-                            <svg class="icon-footer">
+                <ul class="messengers__list">
+                    <li class="messengers__item">
+                        <a href="#" class="messengers__link">
+                            <svg class="messengers__icon">
                                 <use xlink:href="./images/icons/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-icon-list">
-                        <a href="#" class="icon-link">
-                            <svg class="icon-footer">
+                    <li class="messengers__item">
+                        <a href="#" class="messengers__link">
+                            <svg class="messengers__icon">
                                 <use xlink:href="./images/icons/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-icon-list">
-                        <a href="#" class="icon-link">
-                            <svg class="icon-footer">
+                    <li class="messengers__item">
+                        <a href="#" class="messengers__link">
+                            <svg class="messengers__icon">
                                 <use xlink:href="./images/icons/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-icon-list">
-                        <a href="#" class="icon-link">
-                            <svg class="icon-footer">
+                    <li class="messengers__item">
+                        <a href="#" class="messengers__link">
+                            <svg class="messengers__icon">
                                 <use xlink:href="./images/icons/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="footer-box">
-                <p class="footer-form-text">Подпишитесь на рассылку</p>
-                <form action="#" class="footer-form">
-                    <input type="email" placeholder="E-mail" class="footer-input">
-                    <button type="submit" class="footer-form-button">Подписаться
-                        <svg class="footer-form-icon">
+            <div class="subscription">
+                <p class="subscription__title">Подпишитесь на рассылку</p>
+                <form action="#" class="field">
+                    <input type="email" placeholder="E-mail" class="field__input">
+                    <button type="submit" class="button">Подписаться
+                        <svg class="button__icon">
                             <use xlink:href="./images/icons/sprite.svg#icon-send"></use>
                         </svg>
                     </button>
